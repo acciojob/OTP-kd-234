@@ -19,7 +19,7 @@ body{
 	height:100vh;
 }
 
-#verification_heading{
+#otp-card{
 	
 	text-align:center;
 	background-color:white;
@@ -42,14 +42,10 @@ body{
 	font-size:35px;
 	text-align:center;
 	
-	
 	border:. solid black;
 	
 }
-#code-container input: focus{
-	border-color: transparent;
-	
-}
+
 .end-para{
 background: lightgray;
 margin:1px;
