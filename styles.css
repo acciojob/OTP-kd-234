@@ -19,7 +19,7 @@ body{
 	height:100vh;
 }
 
-#otp_card{
+#verification_heading{
 	
 	text-align:center;
 	background-color:white;
@@ -28,7 +28,7 @@ body{
 	padding:3rem;
 	box-shadow:0 10px 40px -20px black;
 }
-.otp-card-inputs{
+#code-container{
 	margin:30px 0;
 	display:grid;
 	gap:30px;
@@ -36,15 +36,17 @@ body{
 	grid-template-columns:repeat(6,auto);
 	
 }
-.otp-card-inputs input{
+#code-container input{
 	width:60px;
 	height:70px;
 	font-size:35px;
 	text-align:center;
+	
+	
 	border:. solid black;
 	
 }
-.otp-card-inputs input: focus{
+#code-container input: focus{
 	border-color: transparent;
 	
 }
